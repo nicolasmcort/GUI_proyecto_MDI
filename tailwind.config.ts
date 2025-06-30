@@ -19,6 +19,17 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        taskflow: {
+          primary: "#00D4AA",
+          background: "#0F0F23",
+          sidebar: "#1A1A2E",
+          card: "#16213E",
+          border: "#374151",
+          "border-light": "#16213E",
+          text: "#E5E7EB",
+          muted: "#9CA3AF",
+          "muted-dark": "#6B7280",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -57,6 +68,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      spacing: {
+        "70": "17.5rem",
       },
       borderRadius: {
         lg: "var(--radius)",
